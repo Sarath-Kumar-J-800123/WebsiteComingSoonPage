@@ -16,9 +16,15 @@
     position: relative;
 }
 .logo{
-    width: 250px;
-    padding: 20px 0;
+
+    width: 400px;
+    padding: 20px 50px  80px ;
     cursor: pointer;
+    background-origin: padding-box;
+    border: 1px solid #253832;
+    border: top width 10px;
+    border-width: 20px ;
+    border-radius: 30px;
 }
 .content{
     top: 50%;
@@ -59,9 +65,9 @@
     margin-bottom: -14px;
 }
 .rocket{
-    width: 250px;
+    width: 350px;
     position: absolute;
-    right: 10%;
+    right: 20%;
     bottom: 0;
     animation: rocket 4s linear infinite;
 }
@@ -71,7 +77,7 @@
         opacity: 0;
     }
     100%{
-        bottom: 105%;
-        opacity: 1;
+        bottom: 110%;
+        opacity: 2;
     }
 }
